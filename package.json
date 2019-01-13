@@ -1,0 +1,31 @@
+{
+  "name": "LIRI-bot",
+  "version": "1.0.0",
+  "description": "Command Line SIRI App in Node",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lagilles/LIRI-bot.git"
+  },
+  "keywords": [
+    "node",
+    "siri"
+  ],
+  "author": "lagilles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lagilles/LIRI-bot/issues"
+  },
+  "homepage": "https://github.com/lagilles/LIRI-bot#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "axios": "^0.18.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.23.0",
+    "dotenv": "^6.2.0"
+  }
+}
